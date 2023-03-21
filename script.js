@@ -10,11 +10,11 @@ function golfScore(par, strokes) {
         }else if (strokes == par) {
             return names[3]
         }else if (strokes == par + 1) {
-            return names[3]
-        }else if (strokes == par + 2) {
             return names[4]
-        }else if(strokes >= par +3) {
+        }else if (strokes == par + 2) {
             return names[5]
+        }else if(strokes >= par +3) {
+            return names[6]
         }else 
             return "Change me"
     }
